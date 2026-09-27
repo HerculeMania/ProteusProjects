@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project>
+  <executable name="dist/default/production/PICkit3OS.X.production.elf">
+    <memory name="data">
+      <units>bytes</units>
+      <length>4528</length>
+      <used>2218</used>
+      <free>2310</free>
+    </memory>
+    <memory name="program">
+      <units>bytes</units>
+      <length>88704</length>
+      <used>28164</used>
+      <free>60540</free>
+    </memory>
+  </executable>
+</project>

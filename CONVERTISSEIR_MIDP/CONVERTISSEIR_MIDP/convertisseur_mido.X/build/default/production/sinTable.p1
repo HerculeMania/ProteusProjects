@@ -1,0 +1,279 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"2 sinTable.c
+[v _sinTable `uc ~T0 @X0 -> 0 `x e ]
+[i _sinTable
+:U ..
+"3
+-> -> 0 `i `uc
+"4
+-> -> 4 `i `uc
+"5
+-> -> 9 `i `uc
+"6
+-> -> 13 `i `uc
+"7
+-> -> 18 `i `uc
+"8
+-> -> 22 `i `uc
+"9
+-> -> 27 `i `uc
+"10
+-> -> 31 `i `uc
+"11
+-> -> 35 `i `uc
+"12
+-> -> 40 `i `uc
+"13
+-> -> 44 `i `uc
+"14
+-> -> 49 `i `uc
+"15
+-> -> 53 `i `uc
+"16
+-> -> 57 `i `uc
+"17
+-> -> 62 `i `uc
+"18
+-> -> 66 `i `uc
+"19
+-> -> 70 `i `uc
+"20
+-> -> 75 `i `uc
+"21
+-> -> 79 `i `uc
+"22
+-> -> 83 `i `uc
+"23
+-> -> 87 `i `uc
+"24
+-> -> 91 `i `uc
+"25
+-> -> 96 `i `uc
+"26
+-> -> 100 `i `uc
+"27
+-> -> 104 `i `uc
+"28
+-> -> 108 `i `uc
+"29
+-> -> 113 `i `uc
+"30
+-> -> 116 `i `uc
+"31
+-> -> 120 `i `uc
+"32
+-> -> 124 `i `uc
+"33
+-> -> 127 `i `uc
+"34
+-> -> 131 `i `uc
+"35
+-> -> 135 `i `uc
+"36
+-> -> 139 `i `uc
+"37
+-> -> 143 `i `uc
+"38
+-> -> 146 `i `uc
+"39
+-> -> 150 `i `uc
+"40
+-> -> 153 `i `uc
+"41
+-> -> 157 `i `uc
+"42
+-> -> 160 `i `uc
+"43
+-> -> 164 `i `uc
+"44
+-> -> 167 `i `uc
+"45
+-> -> 171 `i `uc
+"46
+-> -> 174 `i `uc
+"47
+-> -> 177 `i `uc
+"48
+-> -> 180 `i `uc
+"49
+-> -> 183 `i `uc
+"50
+-> -> 186 `i `uc
+"51
+-> -> 189 `i `uc
+"52
+-> -> 192 `i `uc
+"53
+-> -> 195 `i `uc
+"54
+-> -> 198 `i `uc
+"55
+-> -> 201 `i `uc
+"56
+-> -> 204 `i `uc
+"57
+-> -> 206 `i `uc
+"58
+-> -> 209 `i `uc
+"59
+-> -> 211 `i `uc
+"60
+-> -> 214 `i `uc
+"61
+-> -> 216 `i `uc
+"62
+-> -> 219 `i `uc
+"63
+-> -> 221 `i `uc
+"64
+-> -> 223 `i `uc
+"65
+-> -> 225 `i `uc
+"66
+-> -> 227 `i `uc
+"67
+-> -> 229 `i `uc
+"68
+-> -> 231 `i `uc
+"69
+-> -> 233 `i `uc
+"70
+-> -> 235 `i `uc
+"71
+-> -> 236 `i `uc
+"72
+-> -> 238 `i `uc
+"73
+-> -> 240 `i `uc
+"74
+-> -> 241 `i `uc
+"75
+-> -> 243 `i `uc
+"76
+-> -> 244 `i `uc
+"77
+-> -> 245 `i `uc
+"78
+-> -> 246 `i `uc
+"79
+-> -> 247 `i `uc
+"80
+-> -> 248 `i `uc
+"81
+-> -> 249 `i `uc
+"82
+-> -> 250 `i `uc
+"83
+-> -> 251 `i `uc
+"84
+-> -> 252 `i `uc
+"85
+-> -> 253 `i `uc
+"86
+-> -> 253 `i `uc
+"87
+-> -> 254 `i `uc
+"88
+-> -> 254 `i `uc
+"89
+-> -> 254 `i `uc
+"90
+-> -> 255 `i `uc
+"91
+-> -> 255 `i `uc
+"93
+-> -> 255 `i `uc
+..
+]
+[; ;sinTable.c: 2: unsigned char sinTable[] = {
+[; ;sinTable.c: 3: 0,
+[; ;sinTable.c: 4: 4,
+[; ;sinTable.c: 5: 9,
+[; ;sinTable.c: 6: 13,
+[; ;sinTable.c: 7: 18,
+[; ;sinTable.c: 8: 22,
+[; ;sinTable.c: 9: 27,
+[; ;sinTable.c: 10: 31,
+[; ;sinTable.c: 11: 35,
+[; ;sinTable.c: 12: 40,
+[; ;sinTable.c: 13: 44,
+[; ;sinTable.c: 14: 49,
+[; ;sinTable.c: 15: 53,
+[; ;sinTable.c: 16: 57,
+[; ;sinTable.c: 17: 62,
+[; ;sinTable.c: 18: 66,
+[; ;sinTable.c: 19: 70,
+[; ;sinTable.c: 20: 75,
+[; ;sinTable.c: 21: 79,
+[; ;sinTable.c: 22: 83,
+[; ;sinTable.c: 23: 87,
+[; ;sinTable.c: 24: 91,
+[; ;sinTable.c: 25: 96,
+[; ;sinTable.c: 26: 100,
+[; ;sinTable.c: 27: 104,
+[; ;sinTable.c: 28: 108,
+[; ;sinTable.c: 29: 113,
+[; ;sinTable.c: 30: 116,
+[; ;sinTable.c: 31: 120,
+[; ;sinTable.c: 32: 124,
+[; ;sinTable.c: 33: 127,
+[; ;sinTable.c: 34: 131,
+[; ;sinTable.c: 35: 135,
+[; ;sinTable.c: 36: 139,
+[; ;sinTable.c: 37: 143,
+[; ;sinTable.c: 38: 146,
+[; ;sinTable.c: 39: 150,
+[; ;sinTable.c: 40: 153,
+[; ;sinTable.c: 41: 157,
+[; ;sinTable.c: 42: 160,
+[; ;sinTable.c: 43: 164,
+[; ;sinTable.c: 44: 167,
+[; ;sinTable.c: 45: 171,
+[; ;sinTable.c: 46: 174,
+[; ;sinTable.c: 47: 177,
+[; ;sinTable.c: 48: 180,
+[; ;sinTable.c: 49: 183,
+[; ;sinTable.c: 50: 186,
+[; ;sinTable.c: 51: 189,
+[; ;sinTable.c: 52: 192,
+[; ;sinTable.c: 53: 195,
+[; ;sinTable.c: 54: 198,
+[; ;sinTable.c: 55: 201,
+[; ;sinTable.c: 56: 204,
+[; ;sinTable.c: 57: 206,
+[; ;sinTable.c: 58: 209,
+[; ;sinTable.c: 59: 211,
+[; ;sinTable.c: 60: 214,
+[; ;sinTable.c: 61: 216,
+[; ;sinTable.c: 62: 219,
+[; ;sinTable.c: 63: 221,
+[; ;sinTable.c: 64: 223,
+[; ;sinTable.c: 65: 225,
+[; ;sinTable.c: 66: 227,
+[; ;sinTable.c: 67: 229,
+[; ;sinTable.c: 68: 231,
+[; ;sinTable.c: 69: 233,
+[; ;sinTable.c: 70: 235,
+[; ;sinTable.c: 71: 236,
+[; ;sinTable.c: 72: 238,
+[; ;sinTable.c: 73: 240,
+[; ;sinTable.c: 74: 241,
+[; ;sinTable.c: 75: 243,
+[; ;sinTable.c: 76: 244,
+[; ;sinTable.c: 77: 245,
+[; ;sinTable.c: 78: 246,
+[; ;sinTable.c: 79: 247,
+[; ;sinTable.c: 80: 248,
+[; ;sinTable.c: 81: 249,
+[; ;sinTable.c: 82: 250,
+[; ;sinTable.c: 83: 251,
+[; ;sinTable.c: 84: 252,
+[; ;sinTable.c: 85: 253,
+[; ;sinTable.c: 86: 253,
+[; ;sinTable.c: 87: 254,
+[; ;sinTable.c: 88: 254,
+[; ;sinTable.c: 89: 254,
+[; ;sinTable.c: 90: 255,
+[; ;sinTable.c: 91: 255,
+[; ;sinTable.c: 92: 255
+[; ;sinTable.c: 93: };

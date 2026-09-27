@@ -1,0 +1,3 @@
+ce convertisseur a une pile memoire qui a pour role d'alimenter 
+le µC meme quand il n'a pas de batterie dans le but de detecter 
+la presence du courant de la snel.
